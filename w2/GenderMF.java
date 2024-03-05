@@ -17,7 +17,7 @@ public class GenderMF {
         break;
 
       default:
-        System.out.println("Invalid input");
+        System.out.println("Why are you Gay?!!");
         break;
     }
     sc.close();
