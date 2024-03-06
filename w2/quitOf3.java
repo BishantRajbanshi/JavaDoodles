@@ -1,0 +1,5 @@
+public class quitOf3 {
+  public static void main(String[] args) {
+    
+  }
+}
