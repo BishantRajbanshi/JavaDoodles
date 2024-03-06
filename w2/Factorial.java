@@ -7,10 +7,13 @@ public class Factorial {
     System.out.print("Enter the number: ");
     int n = sc.nextInt();
 
-    for(int i = 0; i <= n ; i++ ){
-      
-    }
+    int result = 1;
 
+    for(int i = 1; i <= n ; i++ ){
+      result *= i;
+      }
+
+    System.out.println(result);
     sc.close();
   }
 }
