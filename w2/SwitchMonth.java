@@ -8,13 +8,13 @@ public class SwitchMonth {
     int NumberOfMonth = sc.nextInt();
 
     switch (NumberOfMonth) {
-      case 1:
+        case 1:
         System.out.println("January");
         break;
-      case 2:
+        case 2:
         System.out.println("February");
         break;
-      case 3:
+        case 3:
         System.out.println("March");
         break;
         case 4:
