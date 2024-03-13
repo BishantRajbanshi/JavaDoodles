@@ -4,7 +4,7 @@ public class Square{
 
    void getArea(int length,int breadth){
    int Area = length * breadth;
-    
+    System.out.println(Area);
   }
 }
 
