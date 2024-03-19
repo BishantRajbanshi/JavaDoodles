@@ -1,4 +1,5 @@
 // Superclass or Base class
+
 class Animal {
     String name;
 
