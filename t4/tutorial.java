@@ -1,4 +1,4 @@
-// Superclass or Base class
+package t4;
 
 class Animal {
     String name;
