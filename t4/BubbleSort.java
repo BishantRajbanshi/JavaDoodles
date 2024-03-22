@@ -1,13 +1,14 @@
+package t4;
 public class BubbleSort {
   public static void main(String[] args) {
       int[] arr = {64, 34, 25, 12, 22, 11, 90};
       
-      System.out.println("Array before sorting:");
+      System.out.print("Array before sorting:");
       printArray(arr);
       
       bubbleSort(arr);
       
-      System.out.println("\nArray after sorting:");
+      System.out.print("\nArray after sorting:");
       printArray(arr);
   }
   
