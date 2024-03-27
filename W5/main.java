@@ -82,16 +82,3 @@
 // Remove the constructor from the interface A.
 // Ensure all methods in the interface are abstract, which means they do not have an implementation (body).
 
-package W5;
-
-interface Employee{
-    void printEmployeeId();
-    void printSalary();
-}
-
-class Manager implements Employee{
-    private int employeeId;
-    private double salary;
-
-    
-}
