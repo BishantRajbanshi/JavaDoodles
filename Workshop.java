@@ -76,3 +76,64 @@
 //     }
 // }
 
+//q3
+
+// class Person{
+//     protected String address;
+// }
+
+// class Employee extends Person{
+//     public String department;
+// }
+
+// public class Workshop{
+//     public static void main(String[] args) {
+//         Employee employee = new Employee();
+//         employee.address = "Jakarta";
+//         employee.department = "IT";
+
+//         System.out.println("Address: " + employee.address);
+//         System.out.println("Department: " + employee.department);
+//     }
+// }
+
+//q4
+
+// class Parent{
+//     private String name;
+//     protected int age;
+//     public String address;
+
+//     public void setName(String name){
+//         this.name = name;
+//     }
+
+//     public String getName(){
+//         return name;
+//     }
+// }
+
+// class Child extends Parent{
+//     public void setPriavteName(String name){
+//         setName(name);
+//     }
+//     public String getPrivateName(){
+//         return getName();
+//     }
+// }
+
+// public class Workshop{
+//     public static void main(String[] args) {
+//         Child child = new Child();
+//         child.age = 20;
+//         child.address = "Jakarta";
+
+//         child.setPriavteName("Bishant Rajbanshi");
+//         System.out.println("Name: " + child.getPrivateName());
+//         System.out.println("Age: " + child.age);
+//         System.out.println("Address: " + child.address);
+//     }
+// }
+
+
+
