@@ -322,26 +322,74 @@
 //     }
 // }
 
-import java.util.ArrayList;
-import java.util.Collections;
+// import java.util.ArrayList;
+// import java.util.Collections;
 
-public class Workshop {
-    public static void main(String[] args) {
-        ArrayList<String> colors = new ArrayList<>();
-        colors.add("Red");
-        colors.add("Blue");
-        colors.add("Green");
-        colors.add("Yellow");
-        colors.add("Orange");
+// public class Workshop {
+//     public static void main(String[] args) {
+//         ArrayList<String> colors = new ArrayList<>();
+//         colors.add("Red");
+//         colors.add("Blue");
+//         colors.add("Green");
+//         colors.add("Yellow");
+//         colors.add("Orange");
 
-        Collections.sort(colors);
-        System.out.println("Sorted list of colors in ascending order:");
-        System.out.println(colors);
+//         Collections.sort(colors);
+//         System.out.println("Sorted list of colors in ascending order:");
+//         System.out.println(colors);
 
-        Collections.sort(colors, Collections.reverseOrder());
-        System.out.println("\nSorted list of colors in descending order:");
-        System.out.println(colors);
-    }
-}
+//         Collections.sort(colors, Collections.reverseOrder());
+//         System.out.println("\nSorted list of colors in descending order:");
+//         System.out.println(colors);
+//     }
+// }
 
+// import java.util.ArrayList;
+// import java.util.Collections;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         ArrayList<Integer> numbers = new ArrayList<>();
+//         numbers.add(10);
+//         numbers.add(20);
+//         numbers.add(30);
+//         numbers.add(40);
+//         numbers.add(50);
+//         numbers.add(60);
+//         numbers.add(70);
+//         numbers.add(80);
+//         numbers.add(90);
+//         numbers.add(100);
+
+//         int target = 50;
+//         int index = binarySearch(numbers, target);
+
+//         if (index != -1) {
+//             System.out.println("Element " + target + " found at index: " + index);
+//         } else {
+//             System.out.println("Element " + target + " not found in the list.");
+//         }
+//     }
+
+//     public static int binarySearch(ArrayList<Integer> list, int target) {
+//         int left = 0;
+//         int right = list.size() - 1;
+
+//         while (left <= right) {
+//             int mid = left + (right - left) / 2;
+
+//             if (list.get(mid) == target) {
+//                 return mid;
+//             }
+
+//             if (list.get(mid) < target) {
+//                 left = mid + 1;
+//             }
+//             else {
+//                 right = mid - 1;
+//             }
+//         }
+//         return -1;
+//     }
+// }
 
