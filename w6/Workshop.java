@@ -217,8 +217,55 @@
 // }
 
 
+// import java.util.HashSet;
+// import java.util.Set;
 
+// public class Workshop {
+//     public static void main(String[] args) {
+//         Set<String> set1 = new HashSet<>();
+//         set1.add("Dog");
+//         set1.add("Cat");
+//         set1.add("Elephant");
+//         set1.add("Lion");
 
+//         Set<String> set2 = new HashSet<>();
+//         set2.add("Cat");
+//         set2.add("Giraffe");
+//         set2.add("Dog");
+//         set2.add("Monkey");
+
+//         System.out.println("Original Set 1: " + set1);
+//         System.out.println("Original Set 2: " + set2);
+
+//         Set<String> union = performUnion(set1, set2);
+//         System.out.println("Union of sets: " + union);
+
+//         Set<String> intersection = performIntersection(set1, set2);
+//         System.out.println("Intersection of sets: " + intersection);
+
+//         Set<String> difference = performDifference(set1, set2);
+//         System.out.println("Difference of sets (set1 - set2): " + difference);
+
+//     }
+
+//     public static Set<String> performUnion(Set<String> set1, Set<String> set2) {
+//         Set<String> union = new HashSet<>(set1);
+//         union.addAll(set2);
+//         return union;
+//     }
+
+//     public static Set<String> performIntersection(Set<String> set1, Set<String> set2) {
+//         Set<String> intersection = new HashSet<>(set1);
+//         intersection.retainAll(set2);
+//         return intersection;
+//     }
+
+//     public static Set<String> performDifference(Set<String> set1, Set<String> set2) {
+//         Set<String> difference = new HashSet<>(set1);
+//         difference.removeAll(set2);
+//         return difference;
+//     }
+// }
 
 
 
