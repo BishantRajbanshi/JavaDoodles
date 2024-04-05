@@ -43,7 +43,41 @@
 //       }
 // }
 
-import java.util.ArrayList;
+
+// import java.util.ArrayList;
+// import java.util.Collections;
+
+// public class Workshop {
+
+//     public static void main(String[] args) {
+        
+//         ArrayList<Integer> arrayList = new ArrayList<>();
+//         arrayList.add(1);
+//         arrayList.add(2);
+//         arrayList.add(3);
+//         arrayList.add(4);
+//         arrayList.add(5);
+
+//         int rotateBy = 2;
+        
+//         System.out.println("Original array: " + arrayList);
+//         rotateArrayList(arrayList, rotateBy);
+//         System.out.println("Rotated array list: " + arrayList);
+//     }
+
+//     public static void rotateArrayList(ArrayList<Integer> arrayList, int rotateBy) {
+//         int size = arrayList.size();
+//         rotateBy = rotateBy % size;
+
+//         if (rotateBy < 0 ){
+//             rotateBy += size;
+//         }
+//         Collections.rotate(arrayList, rotateBy);
+//     }
+// }
+
+
+
 
 
 
