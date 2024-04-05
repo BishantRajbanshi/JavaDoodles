@@ -114,32 +114,108 @@
 //      }
 // }
 
-import java.util.Stack;
+// import java.util.Stack;
 
-public class Workshop {
+// public class Workshop {
 
-    public static void main(String[] args) {
-        Stack<String> taskStack = new Stack<>();
+//     public static void main(String[] args) {
+//         Stack<String> taskStack = new Stack<>();
 
-        taskStack.push("Read");
-        taskStack.push("Write");
-        taskStack.push("Code");
+//         taskStack.push("Read");
+//         taskStack.push("Write");
+//         taskStack.push("Code");
 
-        String poppedTask = taskStack.pop();
-        System.out.println("Popped task: " + poppedTask);
+//         String poppedTask = taskStack.pop();
+//         System.out.println("Popped task: " + poppedTask);
 
-        taskStack.push("Debug");
-        taskStack.push("Test");
+//         taskStack.push("Debug");
+//         taskStack.push("Test");
 
-        String topTask = taskStack.peek();
-        System.out.println("Top task: " + topTask);
+//         String topTask = taskStack.peek();
+//         System.out.println("Top task: " + topTask);
 
-        System.out.println("Task in stack: ");
-        while (!taskStack.isEmpty()) {
-            System.out.println(taskStack.pop());
-        }
-    }
-}
+//         System.out.println("Task in stack: ");
+//         while (!taskStack.isEmpty()) {
+//             System.out.println(taskStack.pop());
+//         }
+//     }
+// }
+
+// import java.util.Stack;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         String sentence = "Hello World";
+//         String reversedSentence = reverseWords(sentence);
+//         System.out.println("Reversed sentence: " + reversedSentence);
+//     }
+
+//     public static String reverseWords(String sentence) {
+//         String[] words = sentence.split(" ");
+
+//         Stack<String> wordStack = new Stack<>();
+
+//         for (String word : words) {
+//             wordStack.push(word);
+//         }
+
+//         StringBuilder reversedSentence = new StringBuilder();
+//         while (!wordStack.isEmpty()) {
+//             reversedSentence.append(wordStack.pop()).append(" ");
+//         }
+
+//         return reversedSentence.toString().trim();
+//     }
+// }
+
+
+// import java.util.LinkedList;
+// import java.util.Queue;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         Queue<String> printQueue = new LinkedList<>();
+
+//         printQueue.offer("Document1");
+//         printQueue.offer("Document2");
+//         printQueue.offer("Document3");
+
+//         String dequeuedJob = printQueue.poll();
+//         System.out.println("Dequeued print job: " + dequeuedJob);
+
+//         printQueue.offer("Document4");
+//         printQueue.offer("Document5");
+
+//         String nextJob = printQueue.peek();
+//         System.out.println("Next print job to be processed: " + nextJob);
+
+//         System.out.println("Print jobs in the queue:");
+//         for (String job : printQueue) {
+//             System.out.println(job);
+//         }
+//     }
+// }
+
+
+// import java.util.TreeSet;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         TreeSet<String> uniqueNames = new TreeSet<>();
+
+//         uniqueNames.add("John");
+//         uniqueNames.add("Alice");
+//         uniqueNames.add("Bob");
+//         uniqueNames.add("Charlie");
+//         uniqueNames.add("Alice");
+
+//         System.out.println("Unique names in alphabetical order:");
+//         for (String name : uniqueNames) {
+//             System.out.println(name);
+//         }
+//     }
+// }
+
 
 
 
