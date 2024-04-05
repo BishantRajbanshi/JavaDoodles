@@ -114,6 +114,32 @@
 //      }
 // }
 
+import java.util.Stack;
+
+public class Workshop {
+
+    public static void main(String[] args) {
+        Stack<String> taskStack = new Stack<>();
+
+        taskStack.push("Read");
+        taskStack.push("Write");
+        taskStack.push("Code");
+
+        String poppedTask = taskStack.pop();
+        System.out.println("Popped task: " + poppedTask);
+
+        taskStack.push("Debug");
+        taskStack.push("Test");
+
+        String topTask = taskStack.peek();
+        System.out.println("Top task: " + topTask);
+
+        System.out.println("Task in stack: ");
+        while (!taskStack.isEmpty()) {
+            System.out.println(taskStack.pop());
+        }
+    }
+}
 
 
 
