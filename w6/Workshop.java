@@ -77,6 +77,46 @@
 // }
 
 
+// import java.util.LinkedList;
+// import java.util.Collections;
+
+// public class Workshop {
+
+//     public static void main(String[] args) {
+        
+//         LinkedList<String> colors = new LinkedList<>();
+
+//         colors.add("Red");
+//         colors.add("Blue");
+//         colors.add("Green");
+//         colors.add("Yellow");
+//         colors.add("Purple");
+
+//         System.out.println("Colors in the list: ");
+//         for (String color: colors){
+//             System.out.println(color);
+//         }
+
+//         boolean redExists = colors.contains("Red");
+//         System.out.println("Does red exists in List: " + redExists);
+
+//         Collections.shuffle(colors);
+//         System.out.println("After suffle: ");
+//         for (String color : colors){
+//             System.out.println(color);
+//         }
+
+//         Collections.sort(colors);
+//         System.out.println("After sorting the list: ");
+//         for(String color: colors){
+//             System.out.println(color);
+//         }
+//      }
+// }
+
+
+
+
 
 
 
