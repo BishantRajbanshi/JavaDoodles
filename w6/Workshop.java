@@ -267,7 +267,81 @@
 //     }
 // }
 
+// import java.util.HashMap;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         HashMap<String, String> contacts = new HashMap<>();
+
+//         contacts.put("Hell", "654646876");
+//         contacts.put("Fenns", "6379865464");
+//         contacts.put("Tels", "686546654");
+
+//         System.out.println("Contact information:");
+//         for (String name : contacts.keySet()) {
+//             String phoneNumber = contacts.get(name);
+//             System.out.println(name + ": " + phoneNumber);
+//         }
+// }
 
 
+// import java.util.Arrays;
+// public class Workshop {
+//     public static void main(String[] args) {
+//         int[] numbers = {5, 2, 8, 1, 3};
+
+//         Arrays.sort(numbers);
+//         System.out.println("Sorted array in ascending order:");
+//         printArray(numbers);
+
+//         reverseSort(numbers);
+//         System.out.println("\nSorted array in descending order:");
+//         printArray(numbers);
+//     }
+//     public static void reverseSort(int[] arr) {
+//         Arrays.sort(arr);
+//         reverse(arr);
+//     }
+
+//     public static void reverse(int[] arr) {
+//         int start = 0;
+//         int end = arr.length - 1;
+//         while (start < end) {
+//             int temp = arr[start];
+//             arr[start] = arr[end];
+//             arr[end] = temp;
+//             start++;
+//             end--;
+//         }
+//     }
+//     public static void printArray(int[] arr) {
+//         for (int num : arr) {
+//             System.out.print(num + " ");
+//         }
+//         System.out.println();
+//     }
+// }
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Workshop {
+    public static void main(String[] args) {
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Blue");
+        colors.add("Green");
+        colors.add("Yellow");
+        colors.add("Orange");
+
+        Collections.sort(colors);
+        System.out.println("Sorted list of colors in ascending order:");
+        System.out.println(colors);
+
+        Collections.sort(colors, Collections.reverseOrder());
+        System.out.println("\nSorted list of colors in descending order:");
+        System.out.println(colors);
+    }
+}
 
 
