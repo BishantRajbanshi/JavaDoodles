@@ -477,25 +477,25 @@
 //     }
 // }
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+// import java.util.regex.Pattern;
+// import java.util.regex.Matcher;
 
-public class Workshop {
+// public class Workshop {
 
-    public static void main(String[] args) {
-        String filename1 = "Documwnt.txt";
-        String filename2 = "data.txt.gz";
+//     public static void main(String[] args) {
+//         String filename1 = "Documwnt.txt";
+//         String filename2 = "data.txt.gz";
 
-        System.out.println(filename1 +" is a text file :" + hasExt(filename1));
-        System.out.println(filename2 +" is a text file :" + hasExt(filename2));
-    }
+//         System.out.println(filename1 +" is a text file :" + hasExt(filename1));
+//         System.out.println(filename2 +" is a text file :" + hasExt(filename2));
+//     }
 
-    public static boolean hasExt(String filename){
-        String regex = "\\.txt$";
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(filename);
-        return matcher.find();
-    }
-}
+//     public static boolean hasExt(String filename){
+//         String regex = "\\.txt$";
+//         Pattern pattern = Pattern.compile(regex);
+//         Matcher matcher = pattern.matcher(filename);
+//         return matcher.find();
+//     }
+// }
 
 
