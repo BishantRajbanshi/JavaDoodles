@@ -393,34 +393,34 @@
 //     }
 // }
 
-import java.util.HashMap;
-import java.util.Map;
+// import java.util.HashMap;
+// import java.util.Map;
 
-public class Workshop {
-    public static void main(String[] args) {
-        HashMap<String, String> countryCapitals = new HashMap<>();
+// public class Workshop {
+//     public static void main(String[] args) {
+//         HashMap<String, String> countryCapitals = new HashMap<>();
 
-        countryCapitals.put("United States", "Washington D.C.");
-        countryCapitals.put("United Kingdom", "London");
-        countryCapitals.put("France", "Paris");
-        countryCapitals.put("Germany", "Berlin");
-        countryCapitals.put("Japan", "Tokyo");
+//         countryCapitals.put("United States", "Washington D.C.");
+//         countryCapitals.put("United Kingdom", "London");
+//         countryCapitals.put("France", "Paris");
+//         countryCapitals.put("Germany", "Berlin");
+//         countryCapitals.put("Japan", "Tokyo");
 
-        System.out.println("All key-value pairs in the map:");
-        printMap(countryCapitals);
+//         System.out.println("All key-value pairs in the map:");
+//         printMap(countryCapitals);
 
-        String capital = getCapital("France", countryCapitals);
-        System.out.println("\nThe capital of France is: " + capital);
+//         String capital = getCapital("France", countryCapitals);
+//         System.out.println("\nThe capital of France is: " + capital);
 
-        String capitalToCheck = "London";
-        boolean containsCapital = containsCapital(capitalToCheck, countryCapitals);
-        System.out.println("\nDoes the map contain the capital " + capitalToCheck + "? " + containsCapital);
+//         String capitalToCheck = "London";
+//         boolean containsCapital = containsCapital(capitalToCheck, countryCapitals);
+//         System.out.println("\nDoes the map contain the capital " + capitalToCheck + "? " + containsCapital);
 
-        System.out.println("\nList of countries and their capitals:");
-        for (Map.Entry<String, String> entry : countryCapitals.entrySet()) {
-            System.out.println(entry.getKey() + " - " + entry.getValue());
-        }
-    }
+//         System.out.println("\nList of countries and their capitals:");
+//         for (Map.Entry<String, String> entry : countryCapitals.entrySet()) {
+//             System.out.println(entry.getKey() + " - " + entry.getValue());
+//         }
+//     }
 
 //     public static void printMap(HashMap<String, String> map) {
 //         for (Map.Entry<String, String> entry : map.entrySet()) {
