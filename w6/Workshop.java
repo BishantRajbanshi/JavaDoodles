@@ -438,4 +438,27 @@
 
 //REgular expressions
 
+// import java.util.regex.Pattern;
+
+// public class Workshop {
+//     public static void main(String[] args) {
+//         String str1 = "abcXYZ123";
+//         String str2 = "abcXYZ123#";
+
+//         System.out.println("String 1 contains only certain characters: " + containsCertain(str1));
+//         System.out.println("String 2 contains only certain characters: " + containsCertain(str2));
+//     }
+
+//     public static boolean containsCertain(String str) {
+//         String regex = "^[a-zA-Z0-9]*$";
+
+//         Pattern pattern = Pattern.compile(regex);
+
+//         return pattern.matcher(str).matches();
+//     }
+// }
+
+
+
+
 
