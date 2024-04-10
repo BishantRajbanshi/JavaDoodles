@@ -459,22 +459,22 @@
 // }
 
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+// import java.util.regex.Pattern;
+// import java.util.regex.Matcher;
 
-public class Workshop {
+// public class Workshop {
 
-    public static void main(String[] args) {
-        String input = "AabcXYZxyzZaBcdEfGhI";
+//     public static void main(String[] args) {
+//         String input = "AabcXYZxyzZaBcdEfGhI";
 
-        Pattern pattern = Pattern.compile("[A-Z][a-z]+");
-        Matcher matcher = pattern.matcher(input);
+//         Pattern pattern = Pattern.compile("[A-Z][a-z]+");
+//         Matcher matcher = pattern.matcher(input);
 
-        System.out.println("Sequence of one uppercase letter followed by lowercase letters: ");
-        while (matcher.find()) {
-            System.out.println(matcher.group());
-        }
-    }
-}
+//         System.out.println("Sequence of one uppercase letter followed by lowercase letters: ");
+//         while (matcher.find()) {
+//             System.out.println(matcher.group());
+//         }
+//     }
+// }
 
 
