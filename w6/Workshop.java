@@ -422,15 +422,15 @@ public class Workshop {
         }
     }
 
-    public static void printMap(HashMap<String, String> map) {
-        for (Map.Entry<String, String> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " - " + entry.getValue());
-        }
-    }
-    public static String getCapital(String country, HashMap<String, String> map) {
-        return map.get(country);
-    }
-    public static boolean containsCapital(String capital, HashMap<String, String> map) {
-        return map.containsValue(capital);
-    }
-}
+//     public static void printMap(HashMap<String, String> map) {
+//         for (Map.Entry<String, String> entry : map.entrySet()) {
+//             System.out.println(entry.getKey() + " - " + entry.getValue());
+//         }
+//     }
+//     public static String getCapital(String country, HashMap<String, String> map) {
+//         return map.get(country);
+//     }
+//     public static boolean containsCapital(String capital, HashMap<String, String> map) {
+//         return map.containsValue(capital);
+//     }
+// }
