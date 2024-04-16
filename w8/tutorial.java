@@ -30,7 +30,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class tutorial {
-
+  
   public static boolean checkPermissions(String filename, String permission) throws IOException {
     File file = new File(filename);
     switch (permission) {
