@@ -26,22 +26,22 @@
 // }
 
 
-import java.io.File;
-import java.io.IOException;
+// import java.io.File;
+// import java.io.IOException;
 
-public class tutorial {
+// public class tutorial {
 
-  public static boolean checkPermissions(String filename, String permission) throws IOException {
-    File file = new File(filename);
-    switch (permission) {
-      case "read":
-        return file.canRead();
-      case "write":
-        return file.canWrite();
-      default:
-        throw new IllegalArgumentException("Invalid permission: " + permission);
-    }
-  }
+//   public static boolean checkPermissions(String filename, String permission) throws IOException {
+//     File file = new File(filename);
+//     switch (permission) {
+//       case "read":
+//         return file.canRead();
+//       case "write":
+//         return file.canWrite();
+//       default:
+//         throw new IllegalArgumentException("Invalid permission: " + permission);
+//     }
+//   }
 
 //   public static void main(String[] args) throws IOException {
 //     String filename = "tutoriall.txt";
