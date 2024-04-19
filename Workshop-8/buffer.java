@@ -5,18 +5,18 @@ public class buffer {
         String sourceFileName = "one.txt";
         String destinationFileName = "two.txt";
 
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream(sourceFileName));
-        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(destinationFileName));
+        BufferedInputStream txt = new BufferedInputStream(new FileInputStream(sourceFileName));
+        BufferedOutputStream txts = new BufferedOutputStream(new FileOutputStream(destinationFileName));
 
         byte[] buffer = new byte[1024];
         int bytesRead;
-        while ((bytesRead = bis.read(buffer)) != -1) {
-            bos.write(buffer, 0, bytesRead);
+        while ((bytesRead = txt.read(buffer)) != -1) {
+            txts.write(buffer, 0, bytesRead);
         }
 
         System.out.println("File copied successfully.");
 
-        bis.close();
-        bos.close();
+        txt.close();
+        txts.close();
     }
 }
