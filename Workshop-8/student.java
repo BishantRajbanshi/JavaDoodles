@@ -43,8 +43,8 @@ public class student {
                     System.out.print("Enter semester: ");
                     String semester = reader.readLine();
     
-                    buffer2 student = new buffer2(firstName, lastName, address, contactNumber, semester);
-                    writer.write(student.toCSVString());
+                    student newStudent = new student(firstName, lastName, address, contactNumber, semester);
+                    writer.write(newStudent.toCSVString());
                     writer.newLine();
                 }
                 System.out.println("Student information written to students.csv successfully.");
