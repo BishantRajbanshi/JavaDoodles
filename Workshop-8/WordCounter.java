@@ -22,3 +22,5 @@ public class WordCounter {
         return count;
     }
 }
+
+
